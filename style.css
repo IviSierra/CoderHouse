@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: white;
+    grid-area: head;
+    margin: auto;
+    padding: auto;
+    
+}
+
+body{
+    
+    background-color: white;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 22px;  
+    text-indent: 5px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*ESTILOS GENERALES*/
+
+.img{
+    grid-area: img;
+    border-radius: 15px 50px;
+    height: 222;
+    width: 400;
+    padding: 20px
+}
+
+
+
+.titulares{
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.title{
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/*ESTILOS HEADER*/
+
+.logo{
+    margin: auto;
+    justify-self: center;    
+    
+}
+
+/* ESTILOS PARA SECTION MENU*/
+
+
+.navbar{
+    
+    font-size: 22px;
+}
+
+
+/* ESTILOS PARA SECTION FOTO*/
+
+.foto{
+    
+    padding: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.imgPerfil{
+    width: 699;
+    height: 700;
+    margin: auto;
+    
+}
+
+
+
+
+/* ESTILOS PARA SECTION MIMISION*/
+
+.miMision{
+    
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.692);
+    background-repeat: repeat;
+    margin: auto;
+    padding: 200px;
+}
+
+/* ESTILOS PARA SECTION FRASE*/
+
+.frase{
+    
+    background-color: black;
+    height: 300px ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Crimson Text', serif;
+     
+}
+
+.one{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+    padding: auto;    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.two{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+    padding: auto;
+}
+
+
+
+/* ESTILOS PARA SECTION PSICOTERAPIA ONLINE*/
+
+.online{
+    
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+
+}
+
+.img{
+    
+    margin: auto;
+    padding: 100px;
+
+}
+
+
+
+/* ESTILOS PARA SECTION OPINIONES*/
+
+.opiniones{
+    
+    overflow:hidden;
+	position: relative;
+    background-color: #F4F1EC;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(400px * 6);
+}
+
+
+
+/*animacion*/
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+.imgO{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px 50px 50px;
+
+}
+
+
+
+/* ESTILOS PARA SECTION CONTACTO*/
+
+.contacto{
+    
+    padding: 20px;
+    background-color: black;
+    background-repeat: repeat;
+    color: white;
+}
+
+.horarios{
+    justify-content: center;
+    display: flex;
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    color: white;
+}
+
+/* ESTILOS PARA SECTION FOOTER*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+   
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+
+}
+
+
